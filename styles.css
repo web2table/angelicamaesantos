@@ -90,7 +90,7 @@ body{padding:8px}
 
 /* Angelica profile panel — matching the source card's visual system */
 .angelica-panel{background:radial-gradient(ellipse at 50% 38%,rgba(237,28,36,.14),transparent 58%),#080808}
-.angelica-panel:before{content:"";position:absolute;inset:12%;border:1px solid rgba(237,28,36,.22);border-radius:50%;filter:blur(.2px)}
+.angelica-panel:before{display:none}
 .angelica-panel:after{background:linear-gradient(0deg,rgba(0,0,0,.85),transparent 42%)}
 .angelica-panel .portrait-caption{left:clamp(24px,4vw,48px);bottom:clamp(28px,5vh,54px)}
 .angelica-panel .portrait-caption span:first-child{font-size:clamp(14px,1.8vw,20px);letter-spacing:1.7px}
